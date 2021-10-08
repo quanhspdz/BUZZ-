@@ -10,7 +10,7 @@ public class SocketManager {
 
     static {
         try {
-            mSocket = IO.socket("http://192.168.31.214:3000/");
+            mSocket = IO.socket("https://buzz-server-quanhspdz.herokuapp.com/");
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
